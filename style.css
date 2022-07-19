@@ -6,6 +6,7 @@ body {
     margin-left: 120px;
     margin-right: 120px;
 
+
 }
 
 .header {
@@ -54,8 +55,14 @@ body {
     padding: 10px 24px;
     border-radius: 41px;
     color: white;
+
+
+}
+
+.button span {
     font-weight: 700;
     font-size: 16px;
+    margin-right: 5px;
 }
 
 
@@ -93,4 +100,89 @@ hr {
 .hr2 {
     margin-bottom: 100px;
     margin-top: 37px;
+}
+
+.collection-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.product {
+    width: 329px;
+    height: 476px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+
+    padding: 17px 15px 16px 14px;
+}
+
+.product-img img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+
+.product-details h3 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.product-price {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+}
+
+span .fa-star {
+    color: #FB8200;
+}
+
+span .fa-star-half-stroke {
+    color: #FB8200;
+}
+
+.rating {
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+    margin-left: 8px;
+}
+
+.product-shifting {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Inter';
+    color: #787885;
+}
+
+.see-more {
+
+    text-decoration: none;
+    color: #E02C6D;
+
+    position: absolute;
+    left: 1155px;
+
+}
+
+.see-more span {
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 5px;
 }
